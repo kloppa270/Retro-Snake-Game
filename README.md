@@ -15,3 +15,8 @@ You need to install raylib before building the game. Follow the instructions bel
 Install raylib using Homebrew:
 ```bash
 brew install raylib
+
+### linux
+Install raylib using your package manager:
+sudo apt install libraylib-dev
+
