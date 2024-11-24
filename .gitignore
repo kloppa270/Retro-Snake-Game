@@ -12,6 +12,7 @@ Release/
 x64/
 .vs/
 *.txt
+*.dat
 
 # Ignore Visual Studio specific files
 .vs/

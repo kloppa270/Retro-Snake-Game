@@ -22,20 +22,20 @@ void Game::CheckCollision()
 
 void Game::SaveHighScore()
 {
-	std::ofstream file("highscore.txt");
+	std::ofstream file("highscore.dat", std::ios::binary);
 	if (file.is_open())
 	{
-		file << highScore;
+		file.write(reinterpret_cast<const char*>(&highScore), sizeof(highScore));
 		file.close();
 	}
 }
 
 void Game::LoadHighScore()
 {
-	std::ifstream file("highscore.txt");
+	std::ifstream file("highscore.dat", std::ios::binary);
 	if (file.is_open())
 	{
-		file >> highScore;
+		file.read(reinterpret_cast<char*>(&highScore), sizeof(highScore));
 		file.close();
 	}
 }
