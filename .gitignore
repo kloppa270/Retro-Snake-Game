@@ -1,0 +1,19 @@
+# Ignore build files
+*.exe
+*.obj
+*.pdb
+*.ipch
+*.ilk
+*.log
+*.sdf
+*.idb
+Debug/
+Release/
+x64/
+.vs/
+*.txt
+
+# Ignore Visual Studio specific files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
