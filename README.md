@@ -6,7 +6,7 @@ A classic Snake game built with C++ and Raylib.
 - Smooth snake movement
 - Random food generation
 - Simple retro-style graphics
-- 
+
 ## Prerequisites
 You need to install raylib before building the game. Follow the instructions below for your platform:
 
@@ -42,7 +42,7 @@ Install raylib using your package manager:
 sudo apt install libraylib-dev
 ```
 ## Installation
-1. After installing raylib clonse the repository:
+1. After installing raylib clone the repository:
 ```bash
 git clone https://github.com/kloppa270/Retro-Snake-Game
 ```
@@ -50,4 +50,5 @@ git clone https://github.com/kloppa270/Retro-Snake-Game
 
 ### Controls
 Arrow keys or WASD: Move the snake
+
 Spacebar: Resume the game after losing
